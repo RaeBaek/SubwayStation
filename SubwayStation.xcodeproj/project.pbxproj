@@ -69,11 +69,10 @@
 				143EB32D28FD4C8100F2F260 /* AppDelegate.swift */,
 				143EB32F28FD4C8100F2F260 /* SceneDelegate.swift */,
 				143EB34728FE7DCD00F2F260 /* Scenes */,
+				143EB35028FEF08000F2F260 /* Model */,
 				143EB33628FD4C8200F2F260 /* Assets.xcassets */,
 				143EB33828FD4C8200F2F260 /* LaunchScreen.storyboard */,
 				143EB33B28FD4C8200F2F260 /* Info.plist */,
-				143EB34C28FEB12600F2F260 /* StationResponseModel.swift */,
-				143EB34E28FECAAF00F2F260 /* StationArrivalDataResponseModel.swift */,
 			);
 			path = SubwayStation;
 			sourceTree = "<group>";
@@ -86,6 +85,15 @@
 				143EB34A28FE82FB00F2F260 /* StationDetailCollectionViewCell.swift */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		143EB35028FEF08000F2F260 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				143EB34C28FEB12600F2F260 /* StationResponseModel.swift */,
+				143EB34E28FECAAF00F2F260 /* StationArrivalDataResponseModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
