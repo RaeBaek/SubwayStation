@@ -16,6 +16,8 @@
 		143EB34628FD4D0100F2F260 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 143EB34528FD4D0100F2F260 /* Alamofire */; };
 		143EB34928FE7DDF00F2F260 /* StationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143EB34828FE7DDF00F2F260 /* StationDetailViewController.swift */; };
 		143EB34B28FE82FB00F2F260 /* StationDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143EB34A28FE82FB00F2F260 /* StationDetailCollectionViewCell.swift */; };
+		143EB34D28FEB12600F2F260 /* StationResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143EB34C28FEB12600F2F260 /* StationResponseModel.swift */; };
+		143EB34F28FECAAF00F2F260 /* StationArrivalDataResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143EB34E28FECAAF00F2F260 /* StationArrivalDataResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		143EB33B28FD4C8200F2F260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		143EB34828FE7DDF00F2F260 /* StationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailViewController.swift; sourceTree = "<group>"; };
 		143EB34A28FE82FB00F2F260 /* StationDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		143EB34C28FEB12600F2F260 /* StationResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationResponseModel.swift; sourceTree = "<group>"; };
+		143EB34E28FECAAF00F2F260 /* StationArrivalDataResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationArrivalDataResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				143EB33628FD4C8200F2F260 /* Assets.xcassets */,
 				143EB33828FD4C8200F2F260 /* LaunchScreen.storyboard */,
 				143EB33B28FD4C8200F2F260 /* Info.plist */,
+				143EB34C28FEB12600F2F260 /* StationResponseModel.swift */,
+				143EB34E28FECAAF00F2F260 /* StationArrivalDataResponseModel.swift */,
 			);
 			path = SubwayStation;
 			sourceTree = "<group>";
@@ -161,7 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				143EB34928FE7DDF00F2F260 /* StationDetailViewController.swift in Sources */,
+				143EB34D28FEB12600F2F260 /* StationResponseModel.swift in Sources */,
 				143EB33228FD4C8100F2F260 /* StationSearchViewController.swift in Sources */,
+				143EB34F28FECAAF00F2F260 /* StationArrivalDataResponseModel.swift in Sources */,
 				143EB32E28FD4C8100F2F260 /* AppDelegate.swift in Sources */,
 				143EB34B28FE82FB00F2F260 /* StationDetailCollectionViewCell.swift in Sources */,
 				143EB33028FD4C8100F2F260 /* SceneDelegate.swift in Sources */,
